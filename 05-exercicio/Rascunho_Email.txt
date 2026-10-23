@@ -1,0 +1,9 @@
+Assunto: erro ordem PM
+
+Pessoal,
+
+Testamos hoje e ainda está deixando liberar a ordem sem responsável.
+Parece que acontece na ZM01. Vamos olhar isso amanhã e depois retornamos.
+Talvez seja alguma configuração.
+
+Abs.

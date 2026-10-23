@@ -1,0 +1,13 @@
+MUDANÇA DE REQUISITO - CARTÃO DO INSTRUTOR
+
+Após a primeira versão da especificação e dos testes, o usuário informa:
+
+“Ordens emergenciais precisam ser liberadas mesmo sem responsável.”
+
+Tarefa do participante:
+1. Não alterar a regra imediatamente.
+2. Identificar a nova lacuna: como o sistema reconhece uma ordem emergencial?
+3. Formular perguntas.
+4. Avaliar impacto na especificação.
+5. Avaliar impacto nos casos de teste.
+6. Atualizar a matriz de rastreabilidade após a validação da regra.

@@ -1,0 +1,413 @@
+PROMPT — GERAÇÃO DE ESPECIFICAÇÃO FUNCIONAL SAP A PARTIR DO TEMPLATE CORPORATIVO
+
+PAPEL
+Você atua como consultor SAP funcional responsável por elaborar uma Especificação Funcional corporativa a partir de requisitos, atas, chamados, evidências, documentos e demais informações fornecidas.
+
+OBJETIVO
+Preencher o arquivo Word de template “EPF - Especificação Funcional new.docx” utilizando-o como documento-base obrigatório.
+
+O resultado deve ser um NOVO arquivo Word (.docx), totalmente preenchido com as informações disponíveis, mantendo a estrutura visual, cabeçalhos, logotipo, tabelas, estilos, títulos, numeração e ordem das seções do template original.
+
+IMPORTANTE
+- Não recrie o documento do zero se o template estiver disponível.
+- Utilize o próprio template como base.
+- Preserve o layout corporativo.
+- Não remova seções do template.
+- Não invente informações funcionais ou técnicas.
+- Quando uma informação não estiver disponível, utilize “Pendente de definição”, “Não informado” ou “Não aplicável”, conforme o caso.
+- Não transforme inferências em requisitos aprovados.
+- Sempre diferencie informação confirmada, inferência e pendência.
+- Preserve exatamente nomes técnicos SAP, transações, tabelas, programas, classes, funções, serviços, campos, ambientes, transportes, requests e identificadores fornecidos.
+
+==================================================
+ENTRADAS
+==================================================
+
+TEMPLATE:
+EPF - Especificação Funcional new.docx
+
+PROJETO / CHAMADO:
+[INFORMAR]
+
+DATA:
+[INFORMAR]
+
+GP:
+[INFORMAR]
+
+CONSULTOR RESPONSÁVEL:
+[INFORMAR]
+
+ABAP RESPONSÁVEL:
+[INFORMAR OU DEIXAR COMO “Pendente de definição”]
+
+CLIENTE:
+[INFORMAR]
+
+SOLICITANTE:
+[INFORMAR]
+
+E-MAIL:
+[INFORMAR]
+
+PRIORIDADE:
+[INFORMAR]
+
+COMPLEXIDADE:
+[INFORMAR]
+
+VERSÃO DO DOCUMENTO:
+[INFORMAR]
+
+AUTOR:
+[INFORMAR]
+
+FONTES / EVIDÊNCIAS:
+[ANEXAR OU COLAR AQUI:
+- requisito;
+- chamado;
+- atas de reunião;
+- e-mails;
+- evidências;
+- prints;
+- documentação existente;
+- regras de negócio;
+- informações técnicas;
+- dados de teste;
+- transportes/requests;
+- outros documentos relevantes.]
+
+==================================================
+ETAPA 1 — ANÁLISE ANTES DO PREENCHIMENTO
+==================================================
+
+Antes de gerar o Word:
+
+1. Leia todas as fontes fornecidas.
+2. Extraia apenas informações sustentadas pelas fontes.
+3. Identifique inconsistências, ambiguidades e lacunas.
+4. Classifique as informações em:
+   - Confirmado;
+   - Inferência;
+   - Pendente de definição.
+5. Não interrompa a geração por falta de informação quando for possível preencher o restante do documento.
+6. Para campos essenciais ausentes, registre “Pendente de definição”.
+7. Se houver uma lacuna que possa alterar significativamente a solução, registre-a também ao final do documento em “Informações adicionais”.
+
+==================================================
+ETAPA 2 — PREENCHIMENTO DO DOCUMENTO
+==================================================
+
+Preencha o template respeitando exatamente sua estrutura.
+
+### CAPA / CABEÇALHO
+
+Preencher:
+- Projeto/Ocorrência
+- Data
+- GP
+
+### HISTÓRICO DE ALTERAÇÕES
+
+Adicionar uma linha contendo:
+- Data
+- Versão
+- Descrição
+- Autor
+
+Descrição sugerida para primeira emissão:
+“Elaboração inicial da Especificação Funcional.”
+
+Não sobrescreva registros históricos existentes sem instrução explícita.
+
+### INFORMAÇÕES GERAIS
+
+Preencher:
+- Projeto / Chamado
+- Consultor responsável
+- ABAP responsável
+- Cliente
+- Solicitante
+- E-mail
+- Prioridade
+- Complexidade
+
+Se alguma informação não tiver sido fornecida, registrar:
+“Pendente de definição”.
+
+### FLUXO DO PROCESSO
+
+Descrever o fluxo funcional do processo de forma sequencial.
+
+Quando houver informação suficiente, representar o fluxo em formato textual estruturado, por exemplo:
+
+Início
+→ Ação do usuário
+→ Validação SAP
+→ Regra de negócio
+→ Processamento
+→ Resultado
+→ Fim
+
+Se o ambiente permitir gerar e inserir um fluxograma compatível com o Word, inseri-lo nesta seção.
+
+Não invente etapas que não estejam sustentadas pelos requisitos.
+
+Se não houver informação suficiente:
+“Pendente de definição do fluxo do processo.”
+
+### DESCRIÇÃO DO PROCESSO DE NEGÓCIO A SER AJUSTADO
+
+Descrever:
+- processo atual;
+- problema ou necessidade;
+- ponto do processo que será alterado;
+- comportamento esperado após a alteração.
+
+Separar claramente AS-IS e TO-BE quando houver informação suficiente.
+
+Não adicionar regras que não tenham sido informadas.
+
+### INFORMAÇÕES PARA ENTENDIMENTO
+
+#### 1. Tipo de Desenvolvimento
+
+Marcar somente as opções sustentadas pelas informações disponíveis:
+
+- Batch Input
+- On Line
+- Formulário
+- Relatório
+- Interface
+- Exit/Enhancement
+- Função
+- Outros
+
+Se ainda não for possível determinar:
+- não marcar opções por inferência;
+- registrar “Pendente de definição” próximo ao item, se necessário.
+
+#### 2. Objetos Envolvidos
+
+Descrever todos os objetos confirmadamente envolvidos, como:
+- transações;
+- telas;
+- campos;
+- tabelas;
+- programas;
+- classes;
+- funções;
+- BAdIs;
+- exits/enhancements;
+- serviços OData;
+- CDS Views;
+- APIs;
+- formulários;
+- interfaces;
+- jobs;
+- variantes;
+- estruturas;
+- objetos customizados.
+
+Para cada objeto, quando possível, informar:
+- nome técnico;
+- finalidade;
+- alteração esperada.
+
+Não inventar nomes técnicos.
+
+#### 3. Evidência do Erro
+
+Preencher somente quando a demanda for corretiva.
+
+Descrever:
+- problema observado;
+- mensagem de erro;
+- comportamento atual;
+- passos que evidenciam o problema;
+- evidências disponíveis.
+
+Se houver prints fornecidos, inserir as imagens relevantes nesta seção, com legenda curta.
+
+Para novo desenvolvimento, utilizar:
+“Não aplicável — demanda referente a novo desenvolvimento.”
+
+#### 4. Simulação do Erro
+
+Para correção:
+descrever o cenário necessário para reproduzir o erro.
+
+Incluir, quando disponível:
+- usuário;
+- transação/app;
+- ordem/documento;
+- variante;
+- dados de entrada;
+- sequência de passos;
+- ambiente.
+
+Para novo desenvolvimento, adaptar para “Cenário de teste / simulação” sem inventar dados.
+
+Se não houver dados:
+“Pendente de definição do cenário de teste.”
+
+#### 5. Resultado Esperado
+
+Descrever de maneira objetiva o comportamento esperado após a implementação.
+
+Sempre que possível, utilizar estrutura:
+DADO que...
+QUANDO...
+ENTÃO...
+
+Não confundir solução técnica com resultado funcional.
+
+Se houver protótipos, layouts ou prints fornecidos, utilizá-los como evidência.
+
+#### 6. Ambiente testes
+
+Informar somente os ambientes efetivamente fornecidos.
+
+Exemplos possíveis:
+- DEV
+- QAS
+- Sandbox
+- sistema/cliente SAP específico
+- URL ou identificação do ambiente, quando autorizado.
+
+Não inventar ambiente.
+
+Se não informado:
+“Pendente de definição.”
+
+#### 7. Lógica Processamento
+
+Descrever a lógica funcional necessária para orientar a implementação.
+
+Estruturar preferencialmente em passos numerados.
+
+Exemplo de formato:
+
+1. Usuário executa [ação].
+2. Sistema recupera [informação].
+3. Sistema valida [regra].
+4. Se [condição], então [comportamento].
+5. Caso contrário, [comportamento].
+6. Sistema retorna [resultado/mensagem].
+
+REGRAS:
+- Não criar pseudocódigo ABAP desnecessariamente.
+- Não inventar tabela, campo, método, classe, BAdI ou programa.
+- Quando a solução técnica ainda depender da equipe ABAP, registrar explicitamente essa dependência.
+- Separar regra de negócio de decisão técnica de implementação.
+
+==================================================
+CUSTOMIZAÇÃO
+==================================================
+
+A seção “CUSTOMIZAÇÃO” deve respeitar a orientação do próprio template: as informações são inseridas pela equipe de desenvolvimento após a atuação no caso.
+
+Somente preencher os itens abaixo quando existirem informações técnicas confirmadas nas fontes ou quando tiver sido explicitamente solicitado que a especificação inclua a solução técnica.
+
+Caso contrário, manter os campos como:
+“Pendente de preenchimento pela equipe de desenvolvimento.”
+
+Itens:
+
+1. Descrição da customização
+
+2. Tabelas
+
+a. Campos
+
+b. Estrutura
+
+c. Visão
+
+d. Ajuda de pesquisa
+
+3. Lógica
+
+4. Programa
+
+5. Informações adicionais
+
+Em “Informações adicionais”, podem ser registradas também:
+- premissas;
+- dependências;
+- impactos;
+- riscos;
+- pontos pendentes de validação;
+- decisões ainda necessárias.
+
+==================================================
+CONTROLE DE REQUEST'S
+==================================================
+
+Preencher somente com informações confirmadas.
+
+Colunas:
+- Tarefa
+- Atividade
+- DEV
+- QAS
+- PRD
+
+Não inventar números de request, tarefas ou transportes.
+
+Se ainda não existirem requests:
+manter as linhas disponíveis no template sem preencher ou registrar “Pendente”, conforme o padrão do documento.
+
+==================================================
+REGRAS DE QUALIDADE
+==================================================
+
+1. Não inventar requisitos.
+2. Não inventar objetos SAP.
+3. Não inventar dados técnicos.
+4. Não assumir que uma hipótese é uma decisão aprovada.
+5. Preservar a terminologia utilizada pelo cliente e pelo projeto.
+6. Melhorar redação, clareza e organização sem alterar o significado.
+7. Evitar texto genérico quando houver evidências concretas disponíveis.
+8. Usar linguagem funcional e corporativa.
+9. Evitar excesso de jargão técnico em seções destinadas ao entendimento funcional.
+10. Garantir rastreabilidade entre problema, requisito, lógica e resultado esperado.
+
+==================================================
+VALIDAÇÃO FINAL
+==================================================
+
+Antes de salvar o arquivo Word:
+
+1. Verifique se todas as seções do template continuam presentes.
+2. Confirme que o layout corporativo foi preservado.
+3. Confirme que nenhuma informação técnica foi inventada.
+4. Confirme que nenhuma inferência foi apresentada como requisito aprovado.
+5. Verifique se campos não informados estão claramente identificados.
+6. Revise gramática, ortografia e coerência.
+7. Confirme consistência entre:
+   - descrição do processo;
+   - objetos envolvidos;
+   - evidência/simulação;
+   - resultado esperado;
+   - lógica de processamento.
+8. Verifique se imagens fornecidas foram posicionadas na seção correta.
+9. Atualize o índice/sumário do Word se a ferramenta permitir.
+10. Salve o resultado como um NOVO arquivo, sem sobrescrever o template original.
+
+==================================================
+ENTREGA
+==================================================
+
+Entregue:
+
+1. O arquivo Word preenchido no formato .docx.
+2. Um resumo curto contendo:
+   - objetivo da especificação;
+   - informações pendentes;
+   - premissas utilizadas;
+   - pontos que exigem validação humana.
+
+Nome sugerido do arquivo:
+
+EPF_[Projeto-ou-Chamado]_[Descricao-Resumida]_v[Versao].docx

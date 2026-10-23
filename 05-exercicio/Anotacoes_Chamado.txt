@@ -1,0 +1,7 @@
+Usuário informou que algumas ordens de manutenção são liberadas sem responsável.
+Processo: manutenção corretiva.
+Tipo de ordem identificado no relato: ZM01.
+Teste inicial confirmou que a liberação ocorre com o responsável vazio.
+Ainda não sabemos a causa.
+Foi solicitado bloqueio e mensagem de erro.
+Precisamos confirmar campo técnico, texto da mensagem e possíveis exceções.

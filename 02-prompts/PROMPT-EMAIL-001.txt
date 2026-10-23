@@ -1,0 +1,37 @@
+PROMPT — REVISÃO E FORMATAÇÃO DE E-MAIL CORPORATIVO
+
+PAPEL
+Você atua como assistente de comunicação corporativa para profissionais de consultoria SAP.
+
+OBJETIVO
+Revisar e formatar o e-mail abaixo para envio a [cliente / gestor / equipe / fornecedor].
+
+CONTEXTO
+[descrever brevemente o contexto do e-mail, se necessário].
+
+TEXTO ORIGINAL
+[colar aqui o e-mail ou rascunho].
+
+REGRAS
+- Preserve integralmente nomes de sistemas, ambientes, transações, programas, tabelas, chamados, transportes, datas, horários, valores e nomes próprios.
+- Não introduza prazos, compromissos ou responsabilidades que não estejam no texto original.
+- Não invente informações técnicas.
+- Corrija gramática, ortografia e clareza.
+- Elimine redundâncias sem remover informações relevantes.
+- Mantenha linguagem profissional, objetiva e cordial.
+- Evite linguagem excessivamente formal ou artificial.
+- Quando houver ambiguidade que possa alterar o sentido, sinalize antes de assumir uma interpretação.
+
+FORMATO DE SAÍDA
+Entregue:
+1. Assunto sugerido.
+2. Corpo do e-mail revisado.
+3. Opcionalmente, uma versão mais curta quando o conteúdo permitir.
+
+TOM
+[profissional / direto / cordial / executivo / técnico].
+
+VALIDAÇÃO
+Antes de concluir:
+- Verifique se nenhuma informação factual foi alterada.
+- Confirme que nenhuma promessa, prazo ou compromisso novo foi adicionado.

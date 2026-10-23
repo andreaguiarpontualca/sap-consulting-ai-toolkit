@@ -1,0 +1,27 @@
+KIT COMPLETO - MÓDULO 4
+
+Arquivos incluídos:
+- 01-cenario/Cenario_SAP_PM_Treinamento.docx
+- 01-cenario/Cenario_SAP_PM_Treinamento.pdf
+- 02-prompts/PROMPT-APONT-001.txt
+- 02-prompts/PROMPT-CHAMADO-001.txt
+- 02-prompts/PROMPT-EF-001.txt
+- 02-prompts/PROMPT-EMAIL-001.txt
+- 02-prompts/PROMPT-MASTER-001.txt
+- 02-prompts/PROMPT-REVISAO-COBERTURA-001.txt
+- 02-prompts/PROMPT-TEST-FUNC-001.txt
+- 02-prompts/PROMPT-TEST-INT-001.txt
+- 03-templates/Matriz_Rastreabilidade.xlsx
+- 03-templates/Template_Casos_de_Teste_Funcional.docx
+- 03-templates/Template_Especificacao_Funcional.docx
+- 04-exemplos/Casos_de_Teste_Exemplo_SAP_PM.docx
+- 04-exemplos/EPF_Exemplo_Treinamento_IA_SAP_PM.docx
+- 05-exercicio/Anotacoes_Chamado.txt
+- 05-exercicio/Anotacoes_Reuniao.txt
+- 05-exercicio/Mudanca_Requisito.txt
+- 05-exercicio/Rascunho_Email.txt
+- 05-exercicio/Requisito_Base.txt
+- 06-checklists/Checklist_Validacao_IA.docx
+- 07-instrutor/Guia_do_Instrutor_Modulo_4.docx
+- 08-slides/Modulo_4_Casos_Praticos.pptx
+- README.txt

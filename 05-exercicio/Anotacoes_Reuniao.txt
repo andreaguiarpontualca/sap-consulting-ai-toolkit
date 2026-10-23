@@ -1,0 +1,11 @@
+Reunião de levantamento - cenário fictício SAP PM
+
+- Regra deve valer para ordem ZM01.
+- Validar no momento da liberação.
+- Se responsável estiver vazio, bloquear.
+- Deve funcionar em criação e alteração.
+- Ambiente de teste previsto: QAS.
+- Mensagem de erro ainda será definida.
+- Campo técnico do responsável ainda precisa ser validado.
+- Não houve decisão sobre processos batch.
+- Consultor deverá atualizar a especificação e preparar testes.

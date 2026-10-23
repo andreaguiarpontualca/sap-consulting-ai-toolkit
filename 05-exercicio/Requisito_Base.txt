@@ -1,0 +1,2 @@
+REQ-001
+Para ordens de manutenção do tipo ZM01, o sistema deve impedir a liberação quando o responsável estiver vazio. A validação deve ocorrer no momento da liberação e deve apresentar uma mensagem de erro ao usuário. A regra deve ser considerada nos processos de criação e alteração da ordem.
